@@ -104,7 +104,7 @@ export default function Navbar() {
         </div>
 
         {/* Content */}
-        <div className="grow bg-[#e3f2fd] rounded-tl-xl">
+        <div className="grow bg-[#e3f2fd] rounded-tl-xl sm:grid-cols-1">
           <Content/>
         </div>
       </div>

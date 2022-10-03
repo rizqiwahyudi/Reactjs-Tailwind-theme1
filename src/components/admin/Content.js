@@ -32,20 +32,20 @@ const Content = () => {
                     <div className="flex flex-row">
                         <div className="card w-96 h-[180px] bg-[#5E35B1] shadow-xl">
                             <div className="card-body">
-                                <div class="grid grid-cols-2">
+                                <div class="grid grid-cols-2 relative">
                                     <div className="after:h-[160px] after:w-[160px] after:rounded-full after:bg-[#512EA9] after:absolute
-                                    after:left-[220px] after:top-[-70px]"></div>
+                                    after:left-[160px] after:top-[-110px]"></div>
                                     <div className="after:h-[190px] after:w-[190px] after:rounded-full after:bg-[#4527A0] after:absolute
-                                    after:left-[280px] after:top-[-70px]"></div>
+                                    after:left-[230px] after:top-[-100px]"></div>
                                     <div> 
-                                        <button className="btn btn-sm bg-[#4527A0] h-[40px] border-none">
+                                        <button className="btn btn-sm bg-[#4527A0] h-[40px] border-none absolute">
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                                             <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5z" />
                                             </svg>
                                         </button>
                                     </div>
                                     <div className="">
-                                        <button className="btn btn-sm bg-[#5E35B1] float-right border-none z-50">
+                                        <button className="btn btn-sm bg-[#5E35B1] float-right border-none">
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
                                             <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM12.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM18.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
                                             </svg>
@@ -87,8 +87,8 @@ const Content = () => {
                         </div>
                     </div>
 
-                    <div className="grid grid-rows-2">
-                        <div className="card w-96 h-[80px] bg-[#1E88E5] shadow-xl">
+                    <div className="flex flex-col">
+                        <div className="card w-90 h-[80px] bg-[#1E88E5] shadow-xl mb-4">
                             <div className="card-body">
                                 <div class="grid grid-cols-2">
                                     <div className="after:h-[160px] after:w-[160px] after:rounded-full after:bg-[#1976D3] after:absolute
@@ -115,7 +115,7 @@ const Content = () => {
                             </div>
                         </div>
 
-                        <div className="card w-96 h-[80px] bg-[#c2df41] shadow-xl">
+                        <div className="card w-90 h-[80px] bg-[#c2df41] shadow-xl">
                             <div className="grid grid-cols-4">
                                 <div className="h-20 content-center"> 
                                     <div className="after:h-[160px] after:w-[160px] after:rounded-full after:bg-[#1976D3] after:absolute
