@@ -172,28 +172,39 @@ const Content = () => {
                     </div>
                 </div>
 
-                <div className="grid lg:grid-cols-3 gap-4 mt-4">
-                    <div className="card w-[630px] bg-white shadow-xl">
-                        <div className="card-body">
-                            <div class="grid grid-cols-2 relative">
-                                <div> 
-                                    <p className="text-slate-400 text-sm mt-[-10px]">Total Growth</p>
-                                    <h2 className="font-money text-[20px] font-bold text-black">$500.00</h2>
+                {/* <div className="grid lg:grid-cols-3 gap-4 mt-4"> */}
+                    <div className="flex flex-row gap-4 mt-4">
+                        <div className="card w-auto bg-white shadow-xl basis-[624px]">
+                            <div className="card-body">
+                                <div class="grid grid-cols-2 relative">
+                                    <div> 
+                                        <p className="text-slate-400 text-sm mt-[-10px]">Total Growth</p>
+                                        <h2 className="font-money text-[20px] font-bold text-black">$500.00</h2>
+                                    </div>
+                                    <div className="">
+                                        <select name="" id="" className="w-30 border focus:ring-2 float-right">
+                                            <option value="">Today</option>
+                                            <option value="">This Month</option>
+                                            <option value="">This Year</option>
+                                        </select>
+                                    </div>
                                 </div>
-                                <div className="">
-                                    <select name="" id="" className="w-30 border focus:ring-2 float-right">
-                                        <option value="">Today</option>
-                                        <option value="">This Month</option>
-                                        <option value="">This Year</option>
-                                    </select>
+                                <div className="mx-auto">
+                                    <Chart options={options} series={series} type="bar"/>
                                 </div>
                             </div>
-                            <div className="mx-auto">
-                                <Chart options={options} series={series} type="bar"/>
+                        </div>
+                        <div className="card w-[303px] bg-white shadow-xl">
+                            <div className="card-body">
+                                <div className="grid grid-cols-2 relative">
+                                    <div>
+                                        <p className="text-black font-bold mt-[-10px]">Popular Stocks</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                {/* </div> */}
             </div>
 
             
