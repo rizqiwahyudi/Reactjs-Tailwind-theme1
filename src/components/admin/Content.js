@@ -196,9 +196,83 @@ const Content = () => {
                         </div>
                         <div className="card w-[303px] bg-white shadow-xl">
                             <div className="card-body">
-                                <div className="grid grid-cols-2 relative">
+                                <div className="grid grid-cols-2 relative mb-2">
                                     <div>
                                         <p className="text-black font-bold mt-[-10px]">Popular Stocks</p>
+                                    </div>
+                                    <div>
+                                        <button className="float-right mt-[-5px]">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 text-sky-300">
+                                                <path d="M3 10a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM8.5 10a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM15.5 8.5a1.5 1.5 0 100 3 1.5 1.5 0 000-3z" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div className="card w-auto bg-[#EDE7F6]">
+                                    <div className="flex flex-row">
+                                        <div className="card-title ml-4 mt-4">
+                                            <span className="text-[#5E35B1] font-semibold text-sm basis-1/2">Bajaj Finery</span>
+                                            <h4 className="text-[#424242] font-bold text-lg text-right basis-1/2">$1839.00</h4>
+                                        </div>
+                                    </div>
+                                    <div className="flex flex-col">
+                                        <span className="text-black font-normal text-xs ml-4">10% Profit</span>
+                                    </div>
+                                    <div className="card-body">
+                                        <div className="w-[90px]">
+                                            <Chart options={options} series={series} type="series"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="grid grid-cols-2 gap-x-14">
+                                    <div className="flex flex-col mb-2">
+                                        <span className="text-[#616161] font-semibold text-sm mb-1">Bajaj Finery</span>
+                                        <span className="text-[#48D783] font-semibold text-xs">10% Profit</span>
+                                    </div>
+                                    <div className="flex flex-row mb-2">
+                                        <h4 className="text-[#616161] font-semibold text-md">$1839.00</h4>
+                                        <span className="badge bg-green-200 ml-2 mt-[7px] badge-xs rounded-md">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                                                <path fill-rule="evenodd" d="M14.77 12.79a.75.75 0 01-1.06-.02L10 8.832 6.29 12.77a.75.75 0 11-1.08-1.04l4.25-4.5a.75.75 0 011.08 0l4.25 4.5a.75.75 0 01-.02 1.06z" clip-rule="evenodd" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <div className="flex flex-col mb-2">
+                                        <span className="text-[#616161] font-semibold text-sm mb-1">TTML</span>
+                                        <span className="text-red-500 font-semibold text-xs">10% Profit</span>
+                                    </div>
+                                    <div className="flex flex-row mb-2">
+                                        <h4 className="text-[#616161] font-semibold text-md">$1839.00</h4>
+                                        <span className="badge bg-red-200 ml-2 mt-[7px] badge-xs rounded-md">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                                                <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <div className="flex flex-col mb-2">
+                                        <span className="text-[#616161] font-semibold text-sm mb-1">Bajaj Finery</span>
+                                        <span className="text-[#48D783] font-semibold text-xs">10% Profit</span>
+                                    </div>
+                                    <div className="flex flex-row mb-2">
+                                        <h4 className="text-[#616161] font-semibold text-md">$1839.00</h4>
+                                        <span className="badge bg-green-200 ml-2 mt-[7px] badge-xs rounded-md">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                                                <path fill-rule="evenodd" d="M14.77 12.79a.75.75 0 01-1.06-.02L10 8.832 6.29 12.77a.75.75 0 11-1.08-1.04l4.25-4.5a.75.75 0 011.08 0l4.25 4.5a.75.75 0 01-.02 1.06z" clip-rule="evenodd" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <div className="flex flex-col mb-2">
+                                        <span className="text-[#616161] font-semibold text-sm mb-1">Bajaj Finery</span>
+                                        <span className="text-[#48D783] font-semibold text-xs">10% Profit</span>
+                                    </div>
+                                    <div className="flex flex-row mb-2">
+                                        <h4 className="text-[#616161] font-semibold text-md">$1839.00</h4>
+                                        <span className="badge bg-green-200 ml-2 mt-[7px] badge-xs rounded-md">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                                                <path fill-rule="evenodd" d="M14.77 12.79a.75.75 0 01-1.06-.02L10 8.832 6.29 12.77a.75.75 0 11-1.08-1.04l4.25-4.5a.75.75 0 011.08 0l4.25 4.5a.75.75 0 01-.02 1.06z" clip-rule="evenodd" />
+                                            </svg>
+                                        </span>
                                     </div>
                                 </div>
                             </div>
