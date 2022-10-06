@@ -122,7 +122,7 @@ const Content = () => {
                                     </div>
                                 </div>
                                 <h2 className="font-money text-[38px] font-bold text-white">$500.00</h2>
-                                <h4 className="text-slate-400 font-medium text-[20px] mt-[-10px]">Total Earning</h4>
+                                <h4 className="text-slate-400 font-medium text-[20px] mt-[-10px]">Total Order</h4>
                             </div>
                         </div>
                     </div>
@@ -295,8 +295,6 @@ const Content = () => {
                     {/* </div> */}
                 </div>
             </div>
-
-            
         </div>
     )
 }

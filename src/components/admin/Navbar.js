@@ -5,6 +5,8 @@ import Content from "./Content";
 
 export default function Navbar() {
   const [showNavbar, setNavbarOpen] = React.useState(true);
+  const [authShow, setAuthShow]     = React.useState(false);
+  
   return (
     <>
       <div className="navbar bg-white flex">
@@ -92,10 +94,21 @@ export default function Navbar() {
               <hr className="my-4"></hr>
               <p className="text-black ml-2 font-semibold text-sm">Pages</p>
               <span className="text-xs text-slate-400 ml-2 font-semibold mb-4 mt-1">Pages Caption</span>
-              <li className="hover:text-[#5e35b1] hover:bg-[#EDE7F6] rounded-xl">
-                <a>
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-                  Item 1
+              <li className="hover:text-[#5e35b1] hover:bg-[#EDE7F6] rounded-xl" onClick={() => setAuthShow(!authShow)}>
+                <a className="">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 5.25a3 3 0 013 3m3 0a6 6 0 01-7.029 5.912c-.563-.097-1.159.026-1.563.43L10.5 17.25H8.25v2.25H6v2.25H2.25v-2.818c0-.597.237-1.17.659-1.591l6.499-6.499c.404-.404.527-1 .43-1.563A6 6 0 1121.75 8.25z" />
+                  </svg>
+                  Authentication
+                  {
+                    authShow ?
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 ml-6">
+                          <path fill-rule="evenodd" d="M14.77 12.79a.75.75 0 01-1.06-.02L10 8.832 6.29 12.77a.75.75 0 11-1.08-1.04l4.25-4.5a.75.75 0 011.08 0l4.25 4.5a.75.75 0 01-.02 1.06z" clip-rule="evenodd" />
+                        </svg> :
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 ml-6">
+                          <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+                        </svg>                        
+                  }
                 </a>
               </li>
               <hr className="my-4"></hr>
