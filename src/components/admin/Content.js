@@ -75,7 +75,7 @@ const Content = () => {
                                     <div className="after:h-[190px] after:w-[190px] after:rounded-full after:bg-[#4527A0] after:absolute
                                     after:left-[230px] after:top-[-100px]"></div>
                                     <div> 
-                                        <button className="btn btn-sm bg-[#4527A0] h-[40px] border-none">
+                                        <button className="btn btn-sm bg-[#4527A0] h-[40px] border-none text-white">
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                                             <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5z" />
                                             </svg>
@@ -104,9 +104,9 @@ const Content = () => {
                                     <div className="after:h-[190px] after:w-[190px] after:rounded-full after:bg-[#1565C0] after:absolute
                                     after:left-[280px] after:top-[-70px]"></div>
                                     <div> 
-                                        <button className="btn btn-sm bg-[#1565C0] h-[40px] border-none z-50">
+                                        <button className="btn btn-sm bg-[#1565C0] h-[40px] border-none z-50 text-white">
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5z" />
+                                                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
                                             </svg>
                                         </button>
                                     </div>
@@ -126,48 +126,50 @@ const Content = () => {
 
                     <div className="flex flex-col">
                         <div className="card w-90 h-[80px] bg-[#1E88E5] shadow-xl mb-4">
-                            <div className="card-body">
-                                <div class="grid grid-cols-2">
+                            {/* <div className="card-body"> */}
+                                <div class="flex flex-row">
                                     <div className="after:h-[160px] after:w-[160px] after:rounded-full after:bg-[#3394E9] after:absolute
                                     after:left-[230px] after:top-[-120px]"></div>
                                     <div className="after:h-[190px] after:w-[190px] after:rounded-full after:bg-[#3394E9] after:absolute
                                     after:left-[280px] after:top-[-30px] after:opacity-70"></div>
-                                    <div className=""> 
-                                        <button className="btn btn-sm bg-[#1565C0] border-none">
+                                    <div className="ml-4 mt-4"> 
+                                        <button className="btn btn-sm bg-[#1565C0] border-none h-[45px] text-white">
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                                             <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 15.75V18m-7.5-6.75h.008v.008H8.25v-.008zm0 2.25h.008v.008H8.25V13.5zm0 2.25h.008v.008H8.25v-.008zm0 2.25h.008v.008H8.25V18zm2.498-6.75h.007v.008h-.007v-.008zm0 2.25h.007v.008h-.007V13.5zm0 2.25h.007v.008h-.007v-.008zm0 2.25h.007v.008h-.007V18zm2.504-6.75h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V13.5zm0 2.25h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V18zm2.498-6.75h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V13.5zM8.25 6h7.5v2.25h-7.5V6zM12 2.25c-1.892 0-3.758.11-5.593.322C5.307 2.7 4.5 3.65 4.5 4.757V19.5a2.25 2.25 0 002.25 2.25h10.5a2.25 2.25 0 002.25-2.25V4.757c0-1.108-.806-2.057-1.907-2.185A48.507 48.507 0 0012 2.25z" />
                                         </svg>
                                         </button>
                                     </div>
-                                    <div className="flex-col">
-                                        <h2 className="text-white font-bold">$203k</h2>
-                                        <h4 className="text-white">Total Income</h4>
+                                    <div className="flex-col ml-3 mt-4">
+                                        <h2 className="text-white font-bold mb-1">$203k</h2>
+                                        <h4 className="text-white text-xs">Total Income</h4>
                                     </div>
                                 </div>
-                            </div>
+                            {/* </div> */}
                         </div>
 
                         <div className="card w-90 h-[80px] bg-white shadow-xl">
-                            <div className="card-body">
-                                <div className="grid grid-cols-2">
+                            {/* <div className="card-body"> */}
+                                <div className="flex flex-row">
                                     <div className="h-20 content-center"> 
                                         <div className="after:h-[160px] after:w-[160px] after:rounded-full after:bg-gradient-to-r after:from-[#FFF1C6] after:absolute
                                         after:left-[220px] after:top-[-120px]"></div>
                                         <div className="after:h-[190px] after:w-[190px] after:rounded-full after:bg-gradient-to-br after:from-[#FFF1C6] after:absolute
                                         after:left-[280px] after:top-[-30px] after:opacity-70"></div>
-                                        <button className="btn btn-sm bg-[#FFF8E1] border-none">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-[#FFC107]">
-                                                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 21v-7.5a.75.75 0 01.75-.75h3a.75.75 0 01.75.75V21m-4.5 0H2.36m11.14 0H18m0 0h3.64m-1.39 0V9.349m-16.5 11.65V9.35m0 0a3.001 3.001 0 003.75-.615A2.993 2.993 0 009.75 9.75c.896 0 1.7-.393 2.25-1.016a2.993 2.993 0 002.25 1.016c.896 0 1.7-.393 2.25-1.016a3.001 3.001 0 003.75.614m-16.5 0a3.004 3.004 0 01-.621-4.72L4.318 3.44A1.5 1.5 0 015.378 3h13.243a1.5 1.5 0 011.06.44l1.19 1.189a3 3 0 01-.621 4.72m-13.5 8.65h3.75a.75.75 0 00.75-.75V13.5a.75.75 0 00-.75-.75H6.75a.75.75 0 00-.75.75v3.75c0 .415.336.75.75.75z" />
-                                            </svg>
-                                        </button>
+                                        <div className="ml-4 mt-4">
+                                            <button className="btn btn-sm bg-[#FFF8E1] border-none h-[45px]">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-[#FFC107]">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 21v-7.5a.75.75 0 01.75-.75h3a.75.75 0 01.75.75V21m-4.5 0H2.36m11.14 0H18m0 0h3.64m-1.39 0V9.349m-16.5 11.65V9.35m0 0a3.001 3.001 0 003.75-.615A2.993 2.993 0 009.75 9.75c.896 0 1.7-.393 2.25-1.016a2.993 2.993 0 002.25 1.016c.896 0 1.7-.393 2.25-1.016a3.001 3.001 0 003.75.614m-16.5 0a3.004 3.004 0 01-.621-4.72L4.318 3.44A1.5 1.5 0 015.378 3h13.243a1.5 1.5 0 011.06.44l1.19 1.189a3 3 0 01-.621 4.72m-13.5 8.65h3.75a.75.75 0 00.75-.75V13.5a.75.75 0 00-.75-.75H6.75a.75.75 0 00-.75.75v3.75c0 .415.336.75.75.75z" />
+                                                </svg>
+                                            </button>
+                                        </div>
                                     </div>
 
-                                    <div className="flex-col">
-                                        <h2 className="text-black font-bold">$203k</h2>
-                                        <h4 className="text-black">Total Income</h4>
+                                    <div className="flex-col ml-3 mt-4">
+                                        <h2 className="text-black font-bold mb-1">$203k</h2>
+                                        <h4 className="text-slate-400 text-xs">Total Income</h4>
                                     </div>
                                 </div>
-                            </div>
+                            {/* </div> */}
                         </div>
                     </div>
                 </div>
@@ -211,9 +213,11 @@ const Content = () => {
 
                                 <div className="card w-auto bg-[#EDE7F6]">
                                     <div className="flex flex-row">
-                                        <div className="card-title ml-4 mt-4">
-                                            <span className="text-[#5E35B1] font-semibold text-sm basis-1/2">Bajaj Finery</span>
-                                            <h4 className="text-[#424242] font-bold text-lg text-right basis-1/2">$1839.00</h4>
+                                        <div className="ml-4 mt-4">
+                                            <span className="text-[#5E35B1] font-semibold text-sm">Bajaj Finery</span>
+                                        </div>
+                                        <div className="ml-14 mt-4">
+                                            <h4 className="text-[#424242] font-bold text-lg text-right">$1839.00</h4>
                                         </div>
                                     </div>
                                     <div className="flex flex-col">
