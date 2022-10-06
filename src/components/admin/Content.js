@@ -35,7 +35,10 @@ const Content = () => {
         },
         xaxis: {
             categories: [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020]
-        }
+        },
+        stroke: {
+            curve: 'smooth'
+        },
     };
 
     return (
@@ -174,9 +177,9 @@ const Content = () => {
                     </div>
                 </div>
 
-                {/* <div className="grid lg:grid-cols-3 gap-4 mt-4"> */}
-                    <div className="flex flex-row gap-4 mt-4">
-                        <div className="card w-auto bg-white shadow-xl basis-[624px]">
+                <div className="grid grid-cols-3 gap-4 mt-4">
+                    {/* <div className="flex flex-row gap-4 mt-4"> */}
+                        <div className="card w-auto bg-white shadow-xl col-span-2">
                             <div className="card-body">
                                 <div class="grid grid-cols-2 relative">
                                     <div> 
@@ -191,12 +194,12 @@ const Content = () => {
                                         </select>
                                     </div>
                                 </div>
-                                <div className="mx-auto">
+                                <div className="mx-auto w-auto">
                                     <Chart options={options} series={series} type="bar"/>
                                 </div>
                             </div>
                         </div>
-                        <div className="card w-[303px] bg-white shadow-xl">
+                        <div className="card w-auto bg-white shadow-xl">
                             <div className="card-body">
                                 <div className="grid grid-cols-2 relative mb-2">
                                     <div>
@@ -211,7 +214,7 @@ const Content = () => {
                                     </div>
                                 </div>
 
-                                <div className="card w-auto bg-[#EDE7F6]">
+                                <div className="card card-compact w-auto bg-[#EDE7F6]">
                                     <div className="flex flex-row">
                                         <div className="ml-4 mt-4">
                                             <span className="text-[#5E35B1] font-semibold text-sm">Bajaj Finery</span>
@@ -223,9 +226,9 @@ const Content = () => {
                                     <div className="flex flex-col">
                                         <span className="text-black font-normal text-xs ml-4">10% Profit</span>
                                     </div>
-                                    <div className="card-body">
-                                        <div className="w-[90px]">
-                                            <Chart options={options} series={series} type="series"/>
+                                    <div className="card-body items-center text-center">
+                                        <div className="">
+                                            <Chart options={options} series={series} type="area" height="200px" width="200px"/>
                                         </div>
                                     </div>
                                 </div>
@@ -278,11 +281,19 @@ const Content = () => {
                                             </svg>
                                         </span>
                                     </div>
+                                    <div className="items-center text-center col-span-2 mt-1">
+                                        <button className="btn btn-sm bg-transparent hover:bg-[#F6FBFF] border-none">
+                                            <span className="text-[#2196F3] text-sm font-semibold">View All</span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 text-[#2196F3]">
+                                                <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
+                                            </svg>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                {/* </div> */}
+                    {/* </div> */}
+                </div>
             </div>
 
             
