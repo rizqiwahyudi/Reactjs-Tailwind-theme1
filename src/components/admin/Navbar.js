@@ -111,6 +111,9 @@ export default function Navbar() {
                   }
                 </a>
               </li>
+              <div className={authShow ? " transition block ease-in duration-500" : "hidden ease-out duration-500"}>
+                <li>asdas</li>
+              </div>
               <hr className="my-4"></hr>
               <p className="text-black ml-2 font-semibold text-sm mb-2">Utilities</p>
               <li className="hover:text-[#5e35b1] hover:bg-[#EDE7F6] rounded-xl">
