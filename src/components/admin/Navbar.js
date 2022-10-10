@@ -1,23 +1,19 @@
 /*eslint-disable*/
 import React from "react";
-import {
-  createBrowserRouter,
-  RouterProvider,
-  Route,
-} from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import ApplicationLogo from '../ApplicationLogo';
-import Content from "./Content";
+// import Content from "./Content";
 
-export default function Navbar() {
+export default function Navbar(props) {
   const [showNavbar, setNavbarOpen] = React.useState(true);
   const [authShow, setAuthShow]     = React.useState(false);
 
-  const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <Content/>,
-    },
-  ]);
+  // const router = createBrowserRouter([
+  //   {
+  //     path: "/",
+  //     element: <Content/>,
+  //   },
+  // ]);
   
   return (
     <>
@@ -144,7 +140,7 @@ export default function Navbar() {
 
         {/* Content */}
         <div className="container grow bg-[#e3f2fd] rounded-tl-xl sm:grid-cols-1 overflow-auto">
-          <RouterProvider router={router} />
+          <Outlet />
         </div>
       </div>
 
