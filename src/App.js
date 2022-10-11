@@ -16,8 +16,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Navbar/>}>
           <Route path="/" element={<Content/>}/>
-          <Route path="/login" element={<Content/>}/>
         </Route>
+        <Route path="/login" element={<Login/>}/>
       </Routes>
     </BrowserRouter>
   );
