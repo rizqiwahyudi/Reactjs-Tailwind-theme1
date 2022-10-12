@@ -88,7 +88,7 @@ export default function Navbar(props) {
         </div>
       </div>
 
-      <div className="flex h-screen bg-white">
+      <div className="flex h-auto bg-white">
         {/* Navigation */}
         <div className={"h-auto flex-none " + (showNavbar ? " w-[260px] translate-x-0 ease-in duration-500 lg:block hidden " : " w-[0px] translate-x-[-250px] ease-out duration-500 ")} >
             <ul className="menu p-5">
@@ -139,7 +139,7 @@ export default function Navbar(props) {
         </div>
 
         {/* Content */}
-        <div className="container grow bg-[#e3f2fd] rounded-tl-xl sm:grid-cols-1 overflow-auto">
+        <div className="container grow bg-[#e3f2fd] rounded-tl-xl sm:grid-cols-1">
           <Outlet />
         </div>
       </div>
