@@ -21,15 +21,15 @@ const Login = () => {
                                 </p>
                             </button>
 
-                            <div className="mt-10">
-                                <div className="grid grid-cols-3 gap-4">
-                                    <hr className="text-black"/>
-                                    <button className="btn btn-sm rounded-lg btn-disabled btn-outline bg-white">
+                            <div className="mt-10 mb-4">
+                                <div className="divider">
+                                    <button className="btn btn-sm w-32 rounded-xl btn-disabled btn-outline bg-white">
                                         <p className="text-black">or</p>
                                     </button>
-                                    <hr className="text-black"/>
                                 </div>
                             </div>
+
+                            <p className="text-black text-center font-semibold text-sm">Sign in with Email address</p>
                         </div>
                     </div>
                 </div>
