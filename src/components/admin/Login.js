@@ -1,5 +1,6 @@
 import React from "react";
 import ApplicationLogo from '../ApplicationLogo';
+import { Link } from "react-router-dom";
 
 const Login = () => {
     return (
@@ -53,7 +54,7 @@ const Login = () => {
                                     </div>
 
                                     <div className="col-span-2">
-                                        <a href="" className="float-right text-[#754CBD] font-semibold">Forgot Password?</a>
+                                        <Link to="" className="float-right text-[#754CBD] font-semibold">Forgot Password?</Link>
                                     </div>
                                 </div>
 
@@ -74,6 +75,11 @@ const Login = () => {
                         </div>
                     </div>
                 </div>
+                
+                <footer className="footer p-6">
+                    <span className="text-sm text-slate-400">Nesiatek</span>
+                    <span className="text-sm text-slate-400 text-right">asdasd</span>
+                </footer>
             </div>
         </div>
     )
