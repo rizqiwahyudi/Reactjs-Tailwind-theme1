@@ -4,6 +4,7 @@ import Navbar from "./components/admin/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Content from "./components/admin/Content";
 import Login from "./components/admin/Login";
+import Register from "./components/admin/Register";
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
           <Route path="/" element={<Content/>}/>
         </Route>
         <Route path="/login" element={<Login/>}/>
+        <Route path="/Register" element={<Register/>}/>
       </Routes>
     </BrowserRouter>
   );

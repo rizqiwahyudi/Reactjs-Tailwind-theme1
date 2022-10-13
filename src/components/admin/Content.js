@@ -187,8 +187,8 @@ const Content = () => {
                                         <h2 className="font-money text-[20px] font-bold text-black">$500.00</h2>
                                     </div>
                                     <div className="">
-                                        <select name="" id="" className="w-30 border focus:ring-2 float-right">
-                                            <option value="">Today</option>
+                                        <select name="" id="" className="select w-36 border bg-[#FAFAFA] text-black focus:ring-2 float-right">
+                                            <option value="" selected>Today</option>
                                             <option value="">This Month</option>
                                             <option value="">This Year</option>
                                         </select>
