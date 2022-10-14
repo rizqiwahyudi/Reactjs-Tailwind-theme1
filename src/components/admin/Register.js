@@ -2,7 +2,7 @@ import React from "react";
 import ApplicationLogo from '../ApplicationLogo';
 import { Link } from "react-router-dom";
 
-const Login = () => {
+const Register = () => {
     const [showPassword, setShowPassword] = React.useState(false);
 
     return (
@@ -35,6 +35,14 @@ const Login = () => {
                             <p className="text-black text-center font-semibold text-sm">Sign up with Email address</p>
 
                             <form action="" className="mt-4">
+                                <div className="grid grid-cols-2 gap-4 mb-5">
+                                    <div className="">
+                                        <input type="text" className="input input-sm bg-[#FAFAFA] h-[50px] border border-slate-300 hover:border-slate-600 focus:border-sky-600 focus:border-2 focus:outline-none text-black" placeholder="First Name"/>
+                                    </div>
+                                    <div className="">
+                                        <input type="text" className="input input-sm bg-[#FAFAFA] h-[50px] border border-slate-300 hover:border-slate-600 focus:border-sky-600 focus:border-2 focus:outline-none text-black" placeholder="Last Name"/>
+                                    </div>
+                                </div>
                                 <div className="form-control mb-5">
                                     <input type="text" className="input bg-[#FAFAFA] h-[50px] border border-slate-300 hover:border-slate-600 focus:border-sky-600 focus:border-2 focus:outline-none text-black" placeholder="Email Address / Username"/>
                                 </div>
@@ -57,30 +65,30 @@ const Login = () => {
                                         </button>
                                     </div>
                                 </div>
-                                <div className="grid grid-cols-3 gap-4 mt-4">
-                                    <div className="form-control">
+                                <div className="grid grid-cols-3 gap-x-36 mt-4">
+                                    <div className="form-control col-span-2">
                                         <label className="label cursor-pointer">
-                                            <input type="checkbox" className="checkbox checkbox-primary checkbox-sm rounded-sm border-slate-400 border-2 mr-1"/>
-                                            <span className="label-text text-slate-600">Remember me</span>
+                                            <input type="checkbox" className="checkbox checkbox-primary checkbox-sm rounded-sm border-slate-400 border-2 mr-2"/>
+                                            <span className="label-text text-slate-600 font-semibold">Agree with  Terms & Condition.</span>
                                         </label>
                                     </div>
 
-                                    <div className="col-span-2">
+                                    {/* <div className="col-span-2">
                                         <Link to="#" className="float-right text-[#754CBD] font-semibold">Forgot Password?</Link>
-                                    </div>
+                                    </div> */}
                                 </div>
 
                                 <div className="form-control mt-4">
                                     <button className="btn bg-[#673AB7] text-white hover:bg-[#5E35B1] rounded-md">
-                                        sign in
+                                        sign up
                                     </button>
                                 </div>
 
                                 <hr className="my-4"/>
 
                                 <div className="text-center">
-                                    <Link to="/register" className="btn btn-ghost btn-sm hover:bg-transparent normal-case text-black">
-                                        Don't have an account?
+                                    <Link to="/login" className="btn btn-ghost btn-sm hover:bg-transparent normal-case text-black">
+                                        Already have an account?
                                     </Link>
                                 </div>
                             </form>
@@ -97,4 +105,4 @@ const Login = () => {
     )
 }
 
-export default Login;
+export default Register;

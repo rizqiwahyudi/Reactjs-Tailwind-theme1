@@ -113,10 +113,10 @@ export default function Navbar(props) {
                 </li>
                 <div className="collapse-content ml-8">
                   <li>
-                    <a href="/login" className="hover:bg-transparent hover:text-[#5E35B1]">Login</a>
+                    <a href="/login" target="_blank" className="hover:bg-transparent hover:text-[#5E35B1] focus:text-[#5E35B1] focus:bg-transparent">Login</a>
                   </li>
                   <li>
-                    <a href="/register" className="hover:bg-transparent hover:text-[#5E35B1]">Register</a>
+                    <a href="/register" target="_blank" className="hover:bg-transparent hover:text-[#5E35B1] focus:text-[#5E35B1] focus:bg-transparent">Register</a>
                   </li>
                 </div>
               </div>
