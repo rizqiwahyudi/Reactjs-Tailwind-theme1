@@ -4,6 +4,9 @@ import { Link } from "react-router-dom";
 
 const Register = () => {
     const [showPassword, setShowPassword] = React.useState(false);
+    const [pass, setPass] = React.useState('');
+
+    
 
     return (
         <div>
@@ -48,7 +51,10 @@ const Register = () => {
                                 </div>
                                 <div className="form-control">
                                     <div className="group input-group-lg relative">
-                                        <input type={showPassword ? "text" : "password"} className="input bg-[#FAFAFA] h-[50px] w-[100%] border border-slate-300 group-hover:border-slate-600 focus:group-hover:border-sky-600 focus:border-sky-600 focus:border-2 focus:outline-none text-black" placeholder="Password"/>
+                                        <input type={showPassword ? "text" : "password"} value={pass} 
+                                            onChange={e => {setPass(e.target.value)}}
+                                            className="input bg-[#FAFAFA] h-[50px] w-[100%] border border-slate-300 group-hover:border-slate-600 focus:group-hover:border-sky-600 focus:border-sky-600 focus:border-2 focus:outline-none text-black" 
+                                            placeholder="Password"/>
                                         <button type="button" className="btn btn-sm absolute btn-ghost lg:left-[380px] left-[205px] mt-2 hover:bg-[#F0F0F0] rounded-full" onClick={() => setShowPassword(!showPassword)}>
                                             {
                                                 showPassword ? 
@@ -63,6 +69,11 @@ const Register = () => {
                                                     </svg>                                              
                                             }
                                         </button>
+                                        
+                                    </div>
+                                    <div className="mb-2 mt-1">
+                                        <progress className="progress w-24 progress-warning" value="100" max="100"></progress>
+                                        <span className="ml-4 text-black text-sm font-medium capitalize">status</span>
                                     </div>
                                 </div>
                                 <div className="grid grid-cols-3 gap-x-36 mt-4">
