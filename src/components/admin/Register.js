@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 const Register = () => {
     const [showPassword, setShowPassword] = React.useState(false);
     const [pass, setPass] = React.useState('');
-
-    
+    const [progressStatus, setProgressStatus] = React.useState('');
+    const [statusPass, setStatusPass] = React.useState('');
 
     return (
         <div>
@@ -74,8 +74,8 @@ const Register = () => {
                                     {
                                         pass ? 
                                         <div className="mb-2 mt-1">
-                                            <progress className="progress w-24 progress-warning" value="100" max="100"></progress>
-                                            <span className="ml-4 text-black text-sm font-medium capitalize">{pass}</span>
+                                            <progress className={`progress w-24 ${progressStatus}`} value="100" max="100"></progress>
+                                            <span className="ml-4 text-black text-sm font-medium capitalize">{statusPass}</span>
                                         </div>
                                         :
                                         ''
