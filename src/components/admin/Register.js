@@ -47,7 +47,7 @@ const Register = () => {
                                     </div>
                                 </div>
                                 <div className="form-control mb-5">
-                                    <input type="text" className="input bg-[#FAFAFA] h-[50px] border border-slate-300 hover:border-slate-600 focus:border-sky-600 focus:border-2 focus:outline-none text-black" placeholder="Email Address / Username"/>
+                                    <input type="text" className="peer input bg-[#FAFAFA] h-[50px] border border-slate-300 hover:border-slate-600 focus:border-sky-600 focus:border-2 focus:outline-none text-black" placeholder="Email Address / Username"/>
                                 </div>
                                 <div className="form-control">
                                     <div className="group input-group-lg relative">
@@ -71,10 +71,15 @@ const Register = () => {
                                         </button>
                                         
                                     </div>
-                                    <div className="mb-2 mt-1">
-                                        <progress className="progress w-24 progress-warning" value="100" max="100"></progress>
-                                        <span className="ml-4 text-black text-sm font-medium capitalize">status</span>
-                                    </div>
+                                    {
+                                        pass ? 
+                                        <div className="mb-2 mt-1">
+                                            <progress className="progress w-24 progress-warning" value="100" max="100"></progress>
+                                            <span className="ml-4 text-black text-sm font-medium capitalize">{pass}</span>
+                                        </div>
+                                        :
+                                        ''
+                                    }
                                 </div>
                                 <div className="grid grid-cols-3 gap-x-36 mt-4">
                                     <div className="form-control col-span-2">
