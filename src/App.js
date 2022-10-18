@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Content from "./components/admin/Content";
 import Login from "./components/admin/Login";
 import Register from "./components/admin/Register";
+import Crud from "./components/admin/Crud";
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Navbar/>}>
           <Route path="/" element={<Content/>}/>
+          <Route path="/crud" element={<Crud/>}/>
         </Route>
         <Route path="/login" element={<Login/>}/>
         <Route path="/Register" element={<Register/>}/>
