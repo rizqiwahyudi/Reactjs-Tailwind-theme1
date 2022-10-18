@@ -28,9 +28,9 @@ export default function Navbar(props) {
             </label>
             {/* Mobile Main Menu */}
             <ul tabIndex={0} className={"menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52" + (showNavbar ? " hidden" : " lg:hidden block")}>
-              <li><a>Homepage</a></li>
-              <li><a>Portfolio</a></li>
-              <li><a>About</a></li>
+              <li><a href="/">Homepage</a></li>
+              <li><a href="/register">Register</a></li>
+              <li><a href="/login">Login</a></li>
             </ul>
           </div>
         </div>

@@ -38,12 +38,12 @@ const Register = () => {
                             <p className="text-black text-center font-semibold text-sm">Sign up with Email address</p>
 
                             <form action="" className="mt-4">
-                                <div className="grid grid-cols-2 gap-4 mb-5">
+                                <div className="grid lg:grid-cols-2 gap-4 mb-5">
                                     <div className="">
-                                        <input type="text" className="input input-sm bg-[#FAFAFA] h-[50px] border border-slate-300 hover:border-slate-600 focus:border-sky-600 focus:border-2 focus:outline-none text-black" placeholder="First Name"/>
+                                        <input type="text" className="input lg:input-md w-full bg-[#FAFAFA] h-[50px] border border-slate-300 hover:border-slate-600 focus:border-sky-600 focus:border-2 focus:outline-none text-black" placeholder="First Name"/>
                                     </div>
                                     <div className="">
-                                        <input type="text" className="input input-sm bg-[#FAFAFA] h-[50px] border border-slate-300 hover:border-slate-600 focus:border-sky-600 focus:border-2 focus:outline-none text-black" placeholder="Last Name"/>
+                                        <input type="text" className="input lg:input-md w-full bg-[#FAFAFA] h-[50px] border border-slate-300 hover:border-slate-600 focus:border-sky-600 focus:border-2 focus:outline-none text-black" placeholder="Last Name"/>
                                     </div>
                                 </div>
                                 <div className="form-control mb-5">
@@ -81,7 +81,7 @@ const Register = () => {
                                         ''
                                     }
                                 </div>
-                                <div className="grid grid-cols-3 gap-x-36 mt-4">
+                                <div className="grid lg:grid-cols-3 gap-x-36 mt-4">
                                     <div className="form-control col-span-2">
                                         <label className="label cursor-pointer">
                                             <input type="checkbox" className="checkbox checkbox-primary checkbox-sm rounded-sm border-slate-400 border-2 mr-2"/>
