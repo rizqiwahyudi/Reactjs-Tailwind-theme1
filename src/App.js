@@ -9,9 +9,9 @@ import Crud from "./components/admin/Crud";
 
 function App() {
 
-  useEffect(() => {
-    console.log("hello world");
-  }, []);
+  // useEffect(() => {
+  //   console.log("hello world");
+  // }, []);
 
   return (
     <BrowserRouter>
