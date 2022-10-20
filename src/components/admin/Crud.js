@@ -84,7 +84,7 @@ const Crud = () => {
                                     }else if(item.content.toLowerCase().includes(filterText.toLowerCase())){
                                         return item;
                                     }else{
-                                        return item;
+                                        return false;
                                     }
                                 })
                             }
