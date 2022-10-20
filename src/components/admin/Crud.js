@@ -31,7 +31,7 @@ const Crud = () => {
             width: '250px'
         },
         {
-            name: 'Content',
+            name: 'Quotes',
             selector: row => row.content,
             sortable: true,
             width: '650px'
