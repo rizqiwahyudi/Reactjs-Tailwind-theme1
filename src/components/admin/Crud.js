@@ -67,17 +67,22 @@ const Crud = () => {
                                         <span className="text-black">Quotes Data</span>
                                     </div>
                                     <div className="form-control lg:ml-32">
-                                        <div className="input-group">
-                                            <input type="text" placeholder="Search…" className="input lg:input-group-md sm:input-group-xs input-bordered lg:w-56 w-2/3 bg-[#FAFAFA] text-black" />
-                                            <button className="btn btn-square btn-outline bg-[#EDE7F6] hover:bg-[#5e35b1] group">
-                                                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 group-hover:text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
-                                            </button>
-                                        </div>
+                                        <input onChange={e => {setFilterText(e.target.value)}} type="text" placeholder="Search…" value={filterText} className="focus:ring-2 focus:ring-sky-400 input lg:input-group-md sm:input-group-xs input-bordered lg:w-64 w-2/3 bg-[#FAFAFA] text-black" />
                                     </div>
                                 </div>
                             }
                             columns={columns} 
-                            data={data}
+                            data={
+                                data.filter(item => {
+                                    if (filterText == "") {
+                                        return item;
+                                    }else if(item.author.toLowerCase().includes(filterText.toLowerCase())){
+                                        return item;
+                                    }else if(item.content.toLowerCase().includes(filterText.toLowerCase())){
+                                        return item;
+                                    }
+                                })
+                            }
                             striped
                             responsive
                             pagination="true"
