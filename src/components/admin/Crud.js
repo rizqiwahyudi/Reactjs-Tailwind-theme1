@@ -33,6 +33,11 @@ const Crud = () => {
             name: 'Content',
             selector: row => row.content,
             sortable: true,
+            width: '650px'
+        },
+        {
+            name: 'Action',
+            selector: row => row.action,
             width: 'auto'
         },
     ];
@@ -43,7 +48,8 @@ const Crud = () => {
         return data.push({
             no: index+1,
             author: res.author,
-            content: res.content
+            content: res.content,
+            action: `this is a action`
         })
     })
 
