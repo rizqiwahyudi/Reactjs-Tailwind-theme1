@@ -6,7 +6,7 @@ const Crud = () => {
     const [quotes, setQuotes] = React.useState(null);
 
     React.useEffect(() => {
-        axios.get(`https://quotable.io/quotes?page=${Math.floor(Math.random() * 3) + 1}&tags=technology`).then((res) => {
+        axios.get(`https://quotable.io/quotes?page=${Math.floor(Math.random() * 5) + 1}&tags=technology|inspirational|education|business|leadership|happiness&maxLength=100`).then((res) => {
             // console.log(res.data.results);
             setQuotes(res.data.results);
         });
@@ -21,16 +21,19 @@ const Crud = () => {
             name: 'No',
             selector: row => row.no,
             sortable: true,
+            width: '100px'
         },
         {
             name: 'Author',
             selector: row => row.author,
             sortable: true,
+            width: '250px'
         },
         {
             name: 'Content',
             selector: row => row.content,
             sortable: true,
+            width: 'auto'
         },
     ];
 
@@ -51,11 +54,13 @@ const Crud = () => {
                     <div className="card-body">
                         <h2 className="card-title">DataTables</h2>
 
-                        <DataTable 
+                        <DataTable
+                            title="Quotes Data"
                             columns={columns} 
                             data={data}
                             striped
                             responsive
+                            pagination="true"
                         />
                     </div>
                 </div>
