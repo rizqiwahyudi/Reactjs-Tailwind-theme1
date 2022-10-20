@@ -4,12 +4,15 @@ import DataTable from "react-data-table-component";
 
 const Crud = () => {
     const [quotes, setQuotes] = React.useState(null);
+    const [pending, setPending] = React.useState(false);
     const [filterText, setFilterText] = React.useState('');
 
     React.useEffect(() => {
+        setPending(true);
         axios.get(`https://quotable.io/quotes?page=${Math.floor(Math.random() * 5) + 1}&tags=technology|inspirational|education|business|leadership|happiness&maxLength=100`).then((res) => {
             // console.log(res.data.results);
             setQuotes(res.data.results);
+            setPending(false);
         });
     }, []);
 
@@ -74,11 +77,13 @@ const Crud = () => {
                             columns={columns} 
                             data={
                                 data.filter(item => {
-                                    if (filterText == "") {
+                                    if (filterText === "") {
                                         return item;
                                     }else if(item.author.toLowerCase().includes(filterText.toLowerCase())){
                                         return item;
                                     }else if(item.content.toLowerCase().includes(filterText.toLowerCase())){
+                                        return item;
+                                    }else{
                                         return item;
                                     }
                                 })
@@ -86,6 +91,10 @@ const Crud = () => {
                             striped
                             responsive
                             pagination="true"
+                            progressPending={pending}
+                            progressComponent={
+                                <button className="btn bg-transparent loading btn-ghost">Loading...</button>
+                            }
                         />
                     </div>
                 </div>
