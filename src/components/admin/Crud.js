@@ -18,19 +18,30 @@ const Crud = () => {
 
     const columns = [
         {
+            name: 'No',
+            selector: row => row.no,
+            sortable: true,
+        },
+        {
             name: 'Author',
-            selector: row => row.author
+            selector: row => row.author,
+            sortable: true,
         },
         {
             name: 'Content',
-            selector: row => row.content
+            selector: row => row.content,
+            sortable: true,
         },
     ];
 
     const data = [];
 
-    quotes.map((res) => {
-        data.push(res)
+    quotes.map((res, index) => {
+        return data.push({
+            no: index+1,
+            author: res.author,
+            content: res.content
+        })
     })
 
     return (
@@ -40,7 +51,12 @@ const Crud = () => {
                     <div className="card-body">
                         <h2 className="card-title">DataTables</h2>
 
-                        <DataTable columns={columns} data={data}/>
+                        <DataTable 
+                            columns={columns} 
+                            data={data}
+                            striped
+                            responsive
+                        />
                     </div>
                 </div>
             </div>
