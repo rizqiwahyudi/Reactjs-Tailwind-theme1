@@ -4,6 +4,7 @@ import DataTable from "react-data-table-component";
 
 const Crud = () => {
     const [quotes, setQuotes] = React.useState(null);
+    const [filterText, setFilterText] = React.useState('');
 
     React.useEffect(() => {
         axios.get(`https://quotable.io/quotes?page=${Math.floor(Math.random() * 5) + 1}&tags=technology|inspirational|education|business|leadership|happiness&maxLength=100`).then((res) => {
@@ -59,9 +60,22 @@ const Crud = () => {
                 <div className="card w-auto h-auto bg-white m-5 border border-sky-200">
                     <div className="card-body">
                         <h2 className="card-title">DataTables</h2>
-
                         <DataTable
-                            title="Quotes Data"
+                            title={
+                                <div className="grid lg:grid-cols-2 gap-4">
+                                    <div className="">
+                                        <span className="text-black">Quotes Data</span>
+                                    </div>
+                                    <div className="form-control lg:ml-32">
+                                        <div className="input-group">
+                                            <input type="text" placeholder="Search…" className="input lg:input-group-md sm:input-group-xs input-bordered lg:w-56 w-2/3 bg-[#FAFAFA] text-black" />
+                                            <button className="btn btn-square btn-outline bg-[#EDE7F6] hover:bg-[#5e35b1] group">
+                                                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 group-hover:text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
                             columns={columns} 
                             data={data}
                             striped
