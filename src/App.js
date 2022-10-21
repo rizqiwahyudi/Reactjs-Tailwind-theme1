@@ -6,6 +6,7 @@ import Content from "./components/admin/Content";
 import Login from "./components/admin/Login";
 import Register from "./components/admin/Register";
 import Crud from "./components/admin/Crud";
+import LandingPage from "./components/landingPage/LandingPage";
 
 function App() {
 
@@ -21,7 +22,8 @@ function App() {
           <Route path="/crud" element={<Crud/>}/>
         </Route>
         <Route path="/login" element={<Login/>}/>
-        <Route path="/Register" element={<Register/>}/>
+        <Route path="/register" element={<Register/>}/>
+        <Route path="/landing-page" element={<LandingPage/>}/>
       </Routes>
     </BrowserRouter>
   );
