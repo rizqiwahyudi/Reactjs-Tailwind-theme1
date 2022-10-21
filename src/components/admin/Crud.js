@@ -83,11 +83,11 @@ const Crud = () => {
                         <h2 className="card-title">DataTables</h2>
                         <DataTable
                             title={
-                                <div className="grid lg:grid-cols-2 gap-4">
+                                <div className="grid lg:grid-cols-2 gap-4 mb-2 mt-2">
                                     <div className="">
                                         <span className="text-black">Quotes Data</span>
                                     </div>
-                                    <div className="form-control lg:ml-32">
+                                    <div className="form-control lg:ml-32 w-[340px]">
                                         <input onChange={e => {setFilterText(e.target.value)}} type="text" placeholder="Search…" value={filterText} className="focus:ring-2 focus:ring-sky-400 input lg:input-group-md sm:input-group-xs input-bordered lg:w-64 w-2/3 bg-[#FAFAFA] text-black" />
                                     </div>
                                 </div>
