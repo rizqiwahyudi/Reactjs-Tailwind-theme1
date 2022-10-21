@@ -2,17 +2,9 @@
 import React from "react";
 import { Outlet, Link } from "react-router-dom";
 import ApplicationLogo from '../ApplicationLogo';
-// import Content from "./Content";
 
 export default function Navbar(props) {
   const [showNavbar, setNavbarOpen] = React.useState(true);
-
-  // const router = createBrowserRouter([
-  //   {
-  //     path: "/",
-  //     element: <Content/>,
-  //   },
-  // ]);
   
   return (
     <>

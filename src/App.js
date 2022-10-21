@@ -9,11 +9,6 @@ import Crud from "./components/admin/Crud";
 import LandingPage from "./components/landingPage/LandingPage";
 
 function App() {
-
-  // useEffect(() => {
-  //   console.log("hello world");
-  // }, []);
-
   return (
     <BrowserRouter>
       <Routes>

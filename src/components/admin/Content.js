@@ -44,30 +44,6 @@ const Content = () => {
     return (
         <div>
             <div className="mx-auto px-5 py-5">
-                {/* <div className="grid grid-cols-3 gap-4">
-                    <div className="flex flex-row">
-                        <div className="card w-80 h-44 glass bg-[#5e35b1] shadow-md transition transform hover:bg-[#5e35b1] hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
-                            <div className="m-4 text-right">
-                            </div>
-                            <div className="card-body">
-                                <div className="card-title">
-                                    <h2 className="text-white">$500.00</h2>
-                                    <p className="text-sm">Total Earning</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-row">
-                        <div className="card w-96 glass bg-[#5e35b1] shadow-md transition transform hover:bg-[#5e35b1] hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
-                            <div className="card-body">
-                                <div className="">
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
-
                 <div className="grid lg:grid-cols-3 gap-4 mt-4">
                     <div className="flex flex-row">
                         <div className="card w-96 h-[180px] bg-[#5E35B1] shadow-xl">
