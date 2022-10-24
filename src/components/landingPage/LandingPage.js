@@ -61,10 +61,10 @@ const LandingPage = () => {
                     <div className="flex flex-wrap items-center">
                         <div className="w-auto hidden lg:block">
                         <ul className="flex items-center mr-16">
-                            <li className="mr-9 font-medium hover:text-gray-700"><a href="#">Features</a></li>
-                            <li className="mr-9 font-medium hover:text-gray-700"><a href="#">Solutions</a></li>
-                            <li className="mr-9 font-medium hover:text-gray-700"><a href="#">Resources</a></li>
-                            <li className="font-medium hover:text-gray-700"><a href="#">Pricing</a></li>
+                            <li className="mr-9 font-medium hover:text-gray-700 text-black"><a href="#">Features</a></li>
+                            <li className="mr-9 font-medium hover:text-gray-700 text-black"><a href="#">Solutions</a></li>
+                            <li className="mr-9 font-medium hover:text-gray-700 text-black"><a href="#">Resources</a></li>
+                            <li className="font-medium hover:text-gray-700 text-black"><a href="#">Pricing</a></li>
                         </ul>
                         </div>
                         <div className="w-auto hidden lg:block">
@@ -105,10 +105,10 @@ const LandingPage = () => {
                         </div>
                         <div className="flex flex-col justify-center py-16 w-full">
                         <ul>
-                            <li className="mb-12"><a className="font-medium hover:text-gray-700" href="#">Features</a></li>
-                            <li className="mb-12"><a className="font-medium hover:text-gray-700" href="#">Solutions</a></li>
-                            <li className="mb-12"><a className="font-medium hover:text-gray-700" href="#">Resources</a></li>
-                            <li><a className="font-medium hover:text-gray-700" href="#">Pricing</a></li>
+                            <li className="mb-12"><a className="font-medium hover:text-gray-700 text-black" href="#">Features</a></li>
+                            <li className="mb-12"><a className="font-medium hover:text-gray-700 text-black" href="#">Solutions</a></li>
+                            <li className="mb-12"><a className="font-medium hover:text-gray-700 text-black" href="#">Resources</a></li>
+                            <li><a className="font-medium hover:text-gray-700 text-black" href="#">Pricing</a></li>
                         </ul>
                         </div>
                         <div className="flex flex-col justify-end w-full pb-8">
@@ -155,7 +155,7 @@ const LandingPage = () => {
                                     <path d="M2.75 3.75C2.75 2.92157 3.42157 2.25 4.25 2.25H6.70943C7.03225 2.25 7.31886 2.45657 7.42094 2.76283L8.5443 6.13291C8.66233 6.48699 8.50203 6.87398 8.1682 7.0409L6.47525 7.88737C7.30194 9.72091 8.77909 11.1981 10.6126 12.0247L11.4591 10.3318C11.626 9.99796 12.013 9.83767 12.3671 9.9557L15.7372 11.0791C16.0434 11.1811 16.25 11.4677 16.25 11.7906V14.25C16.25 15.0784 15.5784 15.75 14.75 15.75H14C7.7868 15.75 2.75 10.7132 2.75 4.5V3.75Z" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path>
                                     </svg>
                                 </div>
-                                <div className="w-auto p-1">
+                                <div className="w-auto p-1 text-black">
                                     <span>Book a call</span>
                                 </div>
                                 </div>
@@ -189,21 +189,21 @@ const LandingPage = () => {
                 <div className="flex flex-wrap -m-16 md:-m-3">
                     <div className="w-full md:w-1/3 p-16 md:p-3">
                     <div className="px-10 pt-11 text-center bg-gray-100 h-96 rounded-4xl">
-                        <h3 className="mb-3 text-xl font-bold font-heading leading-normal">Unlimited Team Members</h3>
+                        <h3 className="mb-3 text-xl font-bold font-heading leading-normal text-black">Unlimited Team Members</h3>
                         <p className="mb-10 text-gray-600 font-medium leading-relaxed">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
                         <img className="mx-auto h-72 object-cover rounded-3xl shadow-3xl transform hover:translate-y-3 transition ease-in-out duration-1000" src={require('../../flaro-assets/images/features/peoples.png')} alt=""/>
                     </div>
                     </div>
                     <div className="w-full md:w-1/3 p-16 md:p-3">
                     <div className="px-10 pt-11 text-center bg-gray-100 h-96 rounded-4xl">
-                        <h3 className="mb-3 text-xl font-bold font-heading leading-normal">Get Exact Reports</h3>
+                        <h3 className="mb-3 text-xl font-bold font-heading leading-normal text-black">Get Exact Reports</h3>
                         <p className="mb-10 text-gray-600 font-medium leading-relaxed">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
                         <img className="mx-auto h-72 object-cover rounded-3xl shadow-3xl transform hover:translate-y-3 transition ease-in-out duration-1000" src={require('../../flaro-assets/images/features/reports.png')} alt=""/>
                     </div>
                     </div>
                     <div className="w-full md:w-1/3 p-16 md:p-3">
                     <div className="px-10 pt-11 text-center bg-gray-100 h-96 rounded-4xl">
-                        <h3 className="mb-3 text-xl font-bold font-heading leading-normal">Unlimited Team Members</h3>
+                        <h3 className="mb-3 text-xl font-bold font-heading leading-normal text-black">Unlimited Team Members</h3>
                         <p className="mb-10 text-gray-600 font-medium leading-relaxed">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
                         <img className="mx-auto h-72 object-cover rounded-3xl shadow-3xl transform hover:translate-y-3 transition ease-in-out duration-1000" src={require('../../flaro-assets/images/features/users.png')} alt=""/>
                     </div>
@@ -227,7 +227,7 @@ const LandingPage = () => {
                         </div>
                         </div>
                         <div className="md:max-w-xs mx-auto">
-                        <h3 className="mb-5 font-heading text-xl font-bold font-heading leading-normal">Choose Package</h3>
+                        <h3 className="mb-5 font-heading text-xl font-bold font-heading leading-normal text-black">Choose Package</h3>
                         <p className="font-sans text-gray-600">Lorem ipsum dolor sit amet, consec tetur adipiscing elit volutpat.</p>
                         </div>
                     </div>
@@ -244,7 +244,7 @@ const LandingPage = () => {
                         </div>
                         </div>
                         <div className="md:max-w-xs mx-auto">
-                        <h3 className="mb-5 font-heading text-xl font-bold font-heading leading-normal">Make Secure Payment</h3>
+                        <h3 className="mb-5 font-heading text-xl font-bold font-heading leading-normal text-black">Make Secure Payment</h3>
                         <p className="font-sans text-gray-600">Lorem ipsum dolor sit amet, consec tetur adipiscing elit volutpat.</p>
                         </div>
                     </div>
@@ -259,7 +259,7 @@ const LandingPage = () => {
                         </div>
                         </div>
                         <div className="md:max-w-xs mx-auto">
-                        <h3 className="mb-5 font-heading text-xl font-bold font-heading leading-normal">Get Instant Access</h3>
+                        <h3 className="mb-5 font-heading text-xl font-bold font-heading leading-normal text-black">Get Instant Access</h3>
                         <p className="font-sans text-gray-600">Lorem ipsum dolor sit amet, consec tetur adipiscing elit volutpat.</p>
                         </div>
                     </div>
@@ -304,7 +304,7 @@ const LandingPage = () => {
                             <span className="text-gray-400">/mo</span>
                         </h3>
                         <p className="mb-8 text-sm text-gray-500 font-medium leading-relaxed">No credit card required</p>
-                        <button className="mb-9 py-4 px-9 w-full font-medium border border-blueGray-300 hover:border-blueGray-400 rounded-xl focus:ring focus:ring-gray-50 bg-white hover:bg-gray-50 transition ease-in-out duration-200" type="button">Get Started Now</button>
+                        <button className="mb-9 py-4 px-9 w-full font-medium border border-blueGray-300 hover:border-blueGray-400 rounded-xl focus:ring focus:ring-gray-50 bg-white hover:bg-gray-50 transition ease-in-out duration-200 text-black" type="button">Get Started Now</button>
                         <ul>
                             <li className="mb-4 flex items-center">
                             <svg className="mr-2" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -350,7 +350,7 @@ const LandingPage = () => {
                             <span className="text-gray-400">/mo</span>
                             </h3>
                             <p className="mb-8 text-sm text-gray-500 font-medium leading-relaxed">Billed Yearly</p>
-                            <button className="mb-9 py-4 px-9 w-full font-medium border border-blueGray-300 hover:border-blueGray-400 rounded-xl focus:ring focus:ring-gray-50 bg-white hover:bg-gray-50 transition ease-in-out duration-200" type="button">Get Started Now</button>
+                            <button className="mb-9 py-4 px-9 w-full font-medium border border-blueGray-300 hover:border-blueGray-400 rounded-xl focus:ring focus:ring-gray-50 bg-white hover:bg-gray-50 transition ease-in-out duration-200 text-black" type="button">Get Started Now</button>
                             <ul>
                             <li className="mb-4 flex items-center">
                                 <svg className="mr-2" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -436,7 +436,7 @@ const LandingPage = () => {
                         <p className="mb-6 text-gray-500 font-medium leading-relaxed">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Egestas lacus, blan dit pellentesque.</p>
                         <h3 className="mb-1 text-4xl text-gray-900 font-bold leading-tight">Contact us</h3>
                         <p className="mb-8 text-sm text-gray-500 font-medium leading-relaxed">for custom offer</p>
-                        <button className="mb-9 py-4 px-9 w-full font-medium border border-blueGray-300 hover:border-blueGray-400 rounded-xl focus:ring focus:ring-gray-50 bg-white hover:bg-gray-50 transition ease-in-out duration-200" type="button">Get Started Now</button>
+                        <button className="mb-9 py-4 px-9 w-full font-medium border border-blueGray-300 hover:border-blueGray-400 rounded-xl focus:ring focus:ring-gray-50 bg-white hover:bg-gray-50 transition ease-in-out duration-200 text-black" type="button">Get Started Now</button>
                         <ul>
                             <li className="mb-4 flex items-center">
                             <svg className="mr-2" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -487,7 +487,7 @@ const LandingPage = () => {
                         <div className="py-7 px-8 bg-white bg-opacity-60 border-2 border-indigo-600 rounded-2xl shadow-10xl">
                             <div className="flex flex-wrap justify-between -m-2">
                             <div className="flex-1 p-2">
-                                <h3 className="mb-4 text-lg font-semibold leading-normal">Do you provide any free plan?</h3>
+                                <h3 className="mb-4 text-lg font-semibold leading-normal text-black">Do you provide any free plan?</h3>
                                 <p className="text-gray-600 font-medium">Lorem ipsum dolor sit amet, to the consectr adipiscing elit. Volutpat tempor to the condi mentum vitae vel purus.</p>
                             </div>
                             <div className="w-auto p-2">
@@ -504,7 +504,7 @@ const LandingPage = () => {
                         <div className="py-7 px-8 bg-white bg-opacity-60 border border-gray-200 hover:border-gray-300 rounded-2xl shadow-10xl">
                             <div className="flex flex-wrap justify-between -m-2">
                             <div className="flex-1 p-2">
-                                <h3 className="text-lg font-semibold leading-normal">How to claim your 25% discount offer?</h3>
+                                <h3 className="text-lg font-semibold leading-normal text-black">How to claim your 25% discount offer?</h3>
                             </div>
                             <div className="w-auto p-2">
                                 <svg className="relative top-1" width="18" height="18" viewbox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -520,7 +520,7 @@ const LandingPage = () => {
                         <div className="py-7 px-8 bg-white bg-opacity-60 border border-gray-200 hover:border-gray-300 rounded-2xl shadow-10xl">
                             <div className="flex flex-wrap justify-between -m-2">
                             <div className="flex-1 p-2">
-                                <h3 className="text-lg font-semibold leading-normal">What’s your refund policy?</h3>
+                                <h3 className="text-lg font-semibold leading-normal text-black">What’s your refund policy?</h3>
                             </div>
                             <div className="w-auto p-2">
                                 <svg className="relative top-1" width="18" height="18" viewbox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -536,7 +536,7 @@ const LandingPage = () => {
                         <div className="py-7 px-8 bg-white bg-opacity-60 border border-gray-200 hover:border-gray-300 rounded-2xl shadow-10xl">
                             <div className="flex flex-wrap justify-between -m-2">
                             <div className="flex-1 p-2">
-                                <h3 className="text-lg font-semibold leading-normal">How to get support for the product?</h3>
+                                <h3 className="text-lg font-semibold leading-normal text-black">How to get support for the product?</h3>
                             </div>
                             <div className="w-auto p-2">
                                 <svg className="relative top-1" width="18" height="18" viewbox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -565,7 +565,7 @@ const LandingPage = () => {
                     </a>
                     </div>
                     <div className="w-full sm:w-1/2 lg:w-2/12 p-8">
-                    <h3 className="mb-6 font-semibold leading-normal">Product</h3>
+                    <h3 className="mb-6 font-semibold leading-normal text-black">Product</h3>
                     <ul>
                         <li className="mb-3.5"><a className="text-gray-600 hover:text-gray-700 font-medium leading-relaxed" href="#">Careers</a></li>
                         <li className="mb-3.5"><a className="text-gray-600 hover:text-gray-700 font-medium leading-relaxed" href="#">About Us</a></li>
@@ -576,7 +576,7 @@ const LandingPage = () => {
                     </ul>
                     </div>
                     <div className="w-full sm:w-1/2 lg:w-2/12 p-8">
-                    <h3 className="mb-6 font-semibold leading-normal">For Developers</h3>
+                    <h3 className="mb-6 font-semibold leading-normal text-black">For Developers</h3>
                     <ul>
                         <li className="mb-3.5"><a className="text-gray-600 hover:text-gray-700 font-medium leading-relaxed" href="#">Docs</a></li>
                         <li className="mb-3.5"><a className="text-gray-600 hover:text-gray-700 font-medium leading-relaxed" href="#">Knowledge Base</a></li>
@@ -585,7 +585,7 @@ const LandingPage = () => {
                     </ul>
                     </div>
                     <div className="w-full sm:w-1/2 lg:w-2/12 p-8">
-                    <h3 className="mb-6 font-semibold leading-normal">Resources</h3>
+                    <h3 className="mb-6 font-semibold leading-normal text-black">Resources</h3>
                     <ul>
                         <li className="mb-3.5"><a className="text-gray-600 hover:text-gray-700 font-medium leading-relaxed" href="#">About</a></li>
                         <li className="mb-3.5"><a className="text-gray-600 hover:text-gray-700 font-medium leading-relaxed" href="#">Leadership</a></li>
@@ -595,7 +595,7 @@ const LandingPage = () => {
                     </ul>
                     </div>
                     <div className="w-full sm:w-1/2 lg:w-2/12 p-8">
-                    <h3 className="mb-6 font-semibold leading-normal">Legal</h3>
+                    <h3 className="mb-6 font-semibold leading-normal text-black">Legal</h3>
                     <ul>
                         <li className="mb-3.5"><a className="text-gray-600 hover:text-gray-700 font-medium leading-relaxed" href="#">Docs</a></li>
                         <li className="mb-3.5"><a className="text-gray-600 hover:text-gray-700 font-medium leading-relaxed" href="#">Knowledge Base</a></li>
