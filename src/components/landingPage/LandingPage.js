@@ -2,6 +2,14 @@ import React from "react";
 
 const LandingPage = () => {
 
+    // function importAll(r) {
+    //     let images = {};
+    //   r.keys().forEach((item, index) => { images[item.replace('./', '')] = r(item); });
+    //     return images
+    // }
+
+    // const images = importAll(require.context('../../flaro-assets', false, /\.(png|jpe?g|svg)$/));
+
     // Burger menus
     document.addEventListener('DOMContentLoaded', function() {
         // open
@@ -53,7 +61,7 @@ const LandingPage = () => {
                     <div class="flex flex-wrap items-center">
                         <div class="w-auto mr-14">
                         <a href="#">
-                            <img src="" alt=""/>
+                            <img src={require('../../flaro-assets/logos/flaro-logo-black.svg').default} alt=""/>
                         </a>
                         </div>
                     </div>
@@ -92,7 +100,7 @@ const LandingPage = () => {
                         <div class="flex items-center justify-between -m-2">
                             <div class="w-auto p-2">
                             <a class="inline-block" href="#">
-                                <img src="flaro-assets/logos/flaro-logo-black.svg" alt=""/>
+                                <img src={require('../../flaro-assets/logos/flaro-logo-black.svg').default} alt=""/>
                             </a>
                             </div>
                             <div class="w-auto p-2">
@@ -167,18 +175,46 @@ const LandingPage = () => {
                         <p class="mb-6 text-sm text-gray-500 font-semibold uppercase">Trusted and loved by 100+ tech first teams</p>
                         <div class="flex flex-wrap -m-3">
                         <div class="w-auto p-3">
-                            <img src="flaro-assets/logos/brands/brand.png" alt=""/>
+                            <img src={require('../../flaro-assets/logos/brands/brand.png')} alt=""/>
                         </div>
                         <div class="w-auto p-3">
-                            <img src="flaro-assets/logos/brands/brand2.png" alt=""/>
+                            <img src={require('../../flaro-assets/logos/brands/brand2.png')} alt=""/>
                         </div>
                         <div class="w-auto p-3">
-                            <img src="flaro-assets/logos/brands/brand3.png" alt=""/>
+                            <img src={require('../../flaro-assets/logos/brands/brand3.png')} alt=""/>
                         </div>
                         </div>
                     </div>
                     <div class="w-full md:w-1/2 p-8">
-                        <img class="transform hover:-translate-y-16 transition ease-in-out duration-1000" src="flaro-assets/images/headers/header.png" alt=""/>
+                        <img class="transform hover:-translate-y-16 transition ease-in-out duration-1000" src={require('../../flaro-assets/images/headers/header.png')} alt=""/>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </section>
+            <section class="pt-24 pb-40 bg-white overflow-hidden">
+                <div class="container px-4 mx-auto">
+                <h2 class="mb-20 text-6xl md:text-8xl xl:text-10xl font-bold font-heading text-center tracking-px-n leading-none">Showcase your software</h2>
+                <div class="flex flex-wrap -m-16 md:-m-3">
+                    <div class="w-full md:w-1/3 p-16 md:p-3">
+                    <div class="px-10 pt-11 text-center bg-gray-100 h-96 rounded-4xl">
+                        <h3 class="mb-3 text-xl font-bold font-heading leading-normal">Unlimited Team Members</h3>
+                        <p class="mb-10 text-gray-600 font-medium leading-relaxed">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                        <img class="mx-auto h-72 object-cover rounded-3xl shadow-3xl transform hover:translate-y-3 transition ease-in-out duration-1000" src={require('../../flaro-assets/images/features/peoples.png')} alt=""/>
+                    </div>
+                    </div>
+                    <div class="w-full md:w-1/3 p-16 md:p-3">
+                    <div class="px-10 pt-11 text-center bg-gray-100 h-96 rounded-4xl">
+                        <h3 class="mb-3 text-xl font-bold font-heading leading-normal">Get Exact Reports</h3>
+                        <p class="mb-10 text-gray-600 font-medium leading-relaxed">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                        <img class="mx-auto h-72 object-cover rounded-3xl shadow-3xl transform hover:translate-y-3 transition ease-in-out duration-1000" src={require('../../flaro-assets/images/features/reports.png')} alt=""/>
+                    </div>
+                    </div>
+                    <div class="w-full md:w-1/3 p-16 md:p-3">
+                    <div class="px-10 pt-11 text-center bg-gray-100 h-96 rounded-4xl">
+                        <h3 class="mb-3 text-xl font-bold font-heading leading-normal">Unlimited Team Members</h3>
+                        <p class="mb-10 text-gray-600 font-medium leading-relaxed">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                        <img class="mx-auto h-72 object-cover rounded-3xl shadow-3xl transform hover:translate-y-3 transition ease-in-out duration-1000" src={require('../../flaro-assets/images/features/users.png')} alt=""/>
                     </div>
                     </div>
                 </div>
