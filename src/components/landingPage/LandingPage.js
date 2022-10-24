@@ -138,8 +138,8 @@ const LandingPage = () => {
                             </div>
                         </div>
                         </div>
-                        <h1 className="mb-6 text-6xl md:text-8xl lg:text-10xl font-bold font-heading md:max-w-xl leading-none">Discover mentors that helps you grow</h1>
-                        <p className="mb-11 text-lg text-gray-900 font-medium md:max-w-md">Get the best-in-className group mentoring plans and professional benefits for your team</p>
+                        <h1 className="mb-6 text-6xl md:text-8xl lg:text-10xl font-bold font-heading md:max-w-xl leading-none text-black">Discover mentors that helps you grow</h1>
+                        <p className="mb-11 text-lg text-black font-medium md:max-w-md">Get the best-in-className group mentoring plans and professional benefits for your team</p>
                         <div className="flex flex-wrap -m-2.5 mb-20">
                         <div className="w-full md:w-auto p-2.5">
                             <div className="block">
@@ -185,7 +185,7 @@ const LandingPage = () => {
             </section>
             <section className="pt-24 pb-40 bg-white overflow-hidden">
                 <div className="container px-4 mx-auto">
-                <h2 className="mb-20 text-6xl md:text-8xl xl:text-10xl font-bold font-heading text-center tracking-px-n leading-none">Showcase your software</h2>
+                <h2 className="mb-20 text-6xl md:text-8xl xl:text-10xl font-bold font-heading text-center tracking-px-n leading-none text-black">Showcase your software</h2>
                 <div className="flex flex-wrap -m-16 md:-m-3">
                     <div className="w-full md:w-1/3 p-16 md:p-3">
                     <div className="px-10 pt-11 text-center bg-gray-100 h-96 rounded-4xl">
@@ -213,7 +213,7 @@ const LandingPage = () => {
             </section>
             <section className="pt-24 pb-28 bg-white overflow-hidden">
                 <div className="container px-4 mx-auto">
-                <h2 className="mb-5 text-6xl md:text-7xl text-center font-bold font-heading tracking-px-n leading-tight">How Flaro Works</h2>
+                <h2 className="mb-5 text-6xl md:text-7xl text-center font-bold font-heading tracking-px-n leading-tight text-black">How Flaro Works</h2>
                 <p className="mb-20 text-lg text-gray-900 text-center font-medium md:max-w-lg mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elemen tum.</p>
                 <div className="flex flex-wrap -m-8">
                     <div className="w-full md:w-1/3 p-8">
@@ -269,7 +269,7 @@ const LandingPage = () => {
             </section>
             <section className="pt-24 bg-blueGray-50 overflow-hidden pb-20">
                 <div className="container px-4 mx-auto">
-                <h2 className="mb-6 text-6xl md:text-8xl xl:text-10xl font-bold font-heading tracking-px-n leading-none">Try Flaro, Grow Fast</h2>
+                <h2 className="mb-6 text-6xl md:text-8xl xl:text-10xl font-bold font-heading tracking-px-n leading-none text-black">Try Flaro, Grow Fast</h2>
                 <div className="mb-16 flex flex-wrap justify-between -m-4">
                     <div className="w-auto p-4">
                     <div className="md:max-w-md">
@@ -480,7 +480,7 @@ const LandingPage = () => {
                 <div className="relative z-10 container px-4 mx-auto">
                 <div className="md:max-w-4xl mx-auto">
                     <p className="mb-7 text-sm text-indigo-600 text-center font-semibold uppercase tracking-px">Have any questions?</p>
-                    <h2 className="mb-16 text-6xl md:text-8xl xl:text-10xl text-center font-bold font-heading tracking-px-n leading-none">Frequently Asked Questions</h2>
+                    <h2 className="mb-16 text-6xl md:text-8xl xl:text-10xl text-center font-bold font-heading tracking-px-n leading-none text-black">Frequently Asked Questions</h2>
                     <div className="mb-11 flex flex-wrap -m-1">
                     <div className="w-full p-1">
                         <a href="#">
