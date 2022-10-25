@@ -46,7 +46,7 @@ const Content = () => {
             <div className="mx-auto px-5 py-5">
                 <div className="grid lg:grid-cols-3 gap-4 mt-4">
                     <div className="flex flex-row">
-                        <div className="card w-96 h-[180px] bg-[#5E35B1] shadow-xl">
+                        <div className="card lg:w-96 w-80 h-[180px] bg-[#5E35B1] shadow-xl">
                             <div className="card-body">
                                 <div class="grid grid-cols-2 relative">
                                     <div className="after:h-[160px] after:w-[160px] after:rounded-full after:bg-[#512EA9] after:absolute
@@ -75,7 +75,7 @@ const Content = () => {
                     </div>
                     
                     <div className="flex flex-row">
-                        <div className="card w-96 h-[180px] bg-[#1E88E5] shadow-xl">
+                        <div className="card lg:w-96 w-80 h-[180px] bg-[#1E88E5] shadow-xl">
                             <div className="card-body">
                                 <div class="grid grid-cols-2">
                                     <div className="after:h-[160px] after:w-[160px] after:rounded-full after:bg-[#1976D3] after:absolute
@@ -153,7 +153,7 @@ const Content = () => {
                     </div>
                 </div>
 
-                <div className="grid grid-cols-3 gap-4 mt-4">
+                <div className="grid lg:grid-cols-3 gap-4 mt-4">
                     {/* <div className="flex flex-row gap-4 mt-4"> */}
                         <div className="card w-auto bg-white shadow-xl col-span-2">
                             <div className="card-body">
@@ -175,7 +175,7 @@ const Content = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="card w-auto bg-white shadow-xl">
+                        <div className="card lg:w-auto bg-white shadow-xl">
                             <div className="card-body">
                                 <div className="grid grid-cols-2 relative mb-2">
                                     <div>
