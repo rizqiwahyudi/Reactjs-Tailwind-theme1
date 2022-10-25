@@ -9,7 +9,7 @@ export default function Navbar(props) {
   return (
     <>
       <div className="navbar bg-white flex">
-        <div className="navbar-start flex-none grid grid-cols-2 gap-4 w-[240px]">
+        <div className="navbar-start flex-none grid grid-cols-2 gap-4 lg:w-[240px] w-[100px]">
           {/* App Logo */}
           <ApplicationLogo className="block h-7 w-auto text-purple-600 mt-3 ml-3 place-self-start"/>
 
