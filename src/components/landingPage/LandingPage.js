@@ -1,4 +1,5 @@
 import React from "react";
+import "../../flaro-assets/css/style.css";
 
 const LandingPage = () => {
     // Burger menus
@@ -44,7 +45,7 @@ const LandingPage = () => {
 
     return (
         <div>
-            <div className="container grow bg-white sm:grid-cols-1 h-auto">
+            <div className="container grow sm:grid-cols-1 h-auto">
             <section className="bg-blueGray-50">
                 <div className="container mx-auto overflow-hidden">
                 <div className="flex items-center justify-between px-4 py-5 bg-blueGray-50">
