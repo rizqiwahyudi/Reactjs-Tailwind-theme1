@@ -108,7 +108,7 @@ const Register = () => {
                                     {
                                         pass ? 
                                         <div className="mb-2 mt-1">
-                                            <progress className={`progress w-24 ${progressPassCheck(passCheck)}`} value={passCheck.score === 0 ? passCheck.score+1 : passCheck.score+1} max="5"></progress>
+                                            <progress className={`progress w-24 ${progressPassCheck(passCheck)}`} value={passCheck.score+1} max="5"></progress>
                                             <span className="ml-4 text-black text-sm font-medium capitalize">{labelPassCheck(passCheck)}</span>
                                         </div>
                                         :
