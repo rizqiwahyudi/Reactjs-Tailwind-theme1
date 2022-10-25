@@ -139,8 +139,8 @@ const LandingPage = () => {
                             </div>
                         </div>
                         </div>
-                        <h1 className="mb-6 text-6xl md:text-8xl lg:text-10xl font-bold font-heading md:max-w-xl leading-none text-black">Discover mentors that helps you grow</h1>
-                        <p className="mb-11 text-lg text-black font-medium md:max-w-md">Get the best-in-className group mentoring plans and professional benefits for your team</p>
+                        <h1 className="mb-6 text-6xl md:text-8xl lg:text-10xl font-bold font-heading md:max-w-xl leading-none text-black">The new, simple, and lightweight web templates</h1>
+                        <p className="mb-11 text-lg text-black font-medium md:max-w-md">Provides you with web templates and graphic design services, helping you to build a successful website in less time.</p>
                         <div className="flex flex-wrap -m-2.5 mb-20">
                         <div className="w-full md:w-auto p-2.5">
                             <div className="block">
@@ -190,21 +190,21 @@ const LandingPage = () => {
                 <div className="flex flex-wrap -m-16 md:-m-3">
                     <div className="w-full md:w-1/3 p-16 md:p-3">
                     <div className="px-10 pt-11 text-center bg-gray-100 h-96 rounded-4xl">
-                        <h3 className="mb-3 text-xl font-bold font-heading leading-normal text-black">Unlimited Team Members</h3>
+                        <h3 className="mb-3 text-xl font-bold font-heading leading-normal text-black">eCommerce Templates</h3>
                         <p className="mb-10 text-gray-600 font-medium leading-relaxed">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
                         <img className="mx-auto h-72 object-cover rounded-3xl shadow-3xl transform hover:translate-y-3 transition ease-in-out duration-1000" src={require('../../flaro-assets/images/features/peoples.png')} alt=""/>
                     </div>
                     </div>
                     <div className="w-full md:w-1/3 p-16 md:p-3">
                     <div className="px-10 pt-11 text-center bg-gray-100 h-96 rounded-4xl">
-                        <h3 className="mb-3 text-xl font-bold font-heading leading-normal text-black">Get Exact Reports</h3>
+                        <h3 className="mb-3 text-xl font-bold font-heading leading-normal text-black">Blog Templates</h3>
                         <p className="mb-10 text-gray-600 font-medium leading-relaxed">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
                         <img className="mx-auto h-72 object-cover rounded-3xl shadow-3xl transform hover:translate-y-3 transition ease-in-out duration-1000" src={require('../../flaro-assets/images/features/reports.png')} alt=""/>
                     </div>
                     </div>
                     <div className="w-full md:w-1/3 p-16 md:p-3">
                     <div className="px-10 pt-11 text-center bg-gray-100 h-96 rounded-4xl">
-                        <h3 className="mb-3 text-xl font-bold font-heading leading-normal text-black">Unlimited Team Members</h3>
+                        <h3 className="mb-3 text-xl font-bold font-heading leading-normal text-black">Portofolio Templates</h3>
                         <p className="mb-10 text-gray-600 font-medium leading-relaxed">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
                         <img className="mx-auto h-72 object-cover rounded-3xl shadow-3xl transform hover:translate-y-3 transition ease-in-out duration-1000" src={require('../../flaro-assets/images/features/users.png')} alt=""/>
                     </div>
@@ -228,7 +228,7 @@ const LandingPage = () => {
                         </div>
                         </div>
                         <div className="md:max-w-xs mx-auto">
-                        <h3 className="mb-5 font-heading text-xl font-bold font-heading leading-normal text-black">Choose Package</h3>
+                        <h3 className="mb-5 font-heading text-xl font-bold font-heading leading-normal text-black">Choose Product</h3>
                         <p className="font-sans text-gray-600">Lorem ipsum dolor sit amet, consec tetur adipiscing elit volutpat.</p>
                         </div>
                     </div>
@@ -260,7 +260,7 @@ const LandingPage = () => {
                         </div>
                         </div>
                         <div className="md:max-w-xs mx-auto">
-                        <h3 className="mb-5 font-heading text-xl font-bold font-heading leading-normal text-black">Get Instant Access</h3>
+                        <h3 className="mb-5 font-heading text-xl font-bold font-heading leading-normal text-black">Get The Product</h3>
                         <p className="font-sans text-gray-600">Lorem ipsum dolor sit amet, consec tetur adipiscing elit volutpat.</p>
                         </div>
                     </div>
@@ -270,7 +270,7 @@ const LandingPage = () => {
             </section>
             <section className="pt-24 bg-blueGray-50 overflow-hidden pb-20">
                 <div className="container px-4 mx-auto">
-                <h2 className="mb-6 text-6xl md:text-8xl xl:text-10xl font-bold font-heading tracking-px-n leading-none text-black">Try Flaro, Grow Fast</h2>
+                <h2 className="mb-6 text-6xl md:text-8xl xl:text-10xl font-bold font-heading tracking-px-n leading-none text-black">Get your design right!</h2>
                 <div className="mb-16 flex flex-wrap justify-between -m-4">
                     <div className="w-auto p-4">
                     <div className="md:max-w-md">
