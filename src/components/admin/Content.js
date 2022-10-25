@@ -155,7 +155,7 @@ const Content = () => {
 
                 <div className="grid lg:grid-cols-3 gap-4 mt-4">
                     {/* <div className="flex flex-row gap-4 mt-4"> */}
-                        <div className="card w-auto bg-white shadow-xl col-span-2">
+                        <div className="card w-auto bg-white shadow-xl lg:col-span-2">
                             <div className="card-body">
                                 <div class="grid grid-cols-2 relative">
                                     <div> 
