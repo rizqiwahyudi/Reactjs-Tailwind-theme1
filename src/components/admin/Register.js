@@ -1,12 +1,46 @@
 import React from "react";
 import ApplicationLogo from '../ApplicationLogo';
 import { Link } from "react-router-dom";
+import zxcvbn from "zxcvbn";
 
 const Register = () => {
     const [showPassword, setShowPassword] = React.useState(false);
     const [pass, setPass] = React.useState('');
-    const [progressStatus, setProgressStatus] = React.useState('');
-    const [statusPass, setStatusPass] = React.useState('');
+    const passCheck = zxcvbn(pass);
+
+    const labelPassCheck = (result) => {
+        switch (result.score) {
+            case 0:
+                return 'Poor';
+            case 1:
+                return 'Weak';
+            case 2:
+                return 'Fair';
+            case 3:
+                return 'Good';
+            case 4:
+                return 'Strong';
+            default:
+                return 'Poor';
+        }
+    }
+
+    const progressPassCheck = (result) => {
+        switch (result.score) {
+            case 0:
+                return 'progress-error';
+            case 1:
+                return 'progress-warning';
+            case 2:
+                return 'progress-accent';
+            case 3:
+                return 'progress-info';
+            case 4:
+                return 'progress-success';
+            default:
+                return 'progress-error';
+        }
+    }
 
     return (
         <div>
@@ -74,8 +108,8 @@ const Register = () => {
                                     {
                                         pass ? 
                                         <div className="mb-2 mt-1">
-                                            <progress className={`progress w-24 ${progressStatus}`} value="100" max="100"></progress>
-                                            <span className="ml-4 text-black text-sm font-medium capitalize">{statusPass}</span>
+                                            <progress className={`progress w-24 ${progressPassCheck(passCheck)}`} value={passCheck.score === 0 ? passCheck.score+1 : passCheck.score+1} max="5"></progress>
+                                            <span className="ml-4 text-black text-sm font-medium capitalize">{labelPassCheck(passCheck)}</span>
                                         </div>
                                         :
                                         ''
