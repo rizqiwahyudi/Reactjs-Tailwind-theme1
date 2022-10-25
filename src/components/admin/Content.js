@@ -171,7 +171,7 @@ const Content = () => {
                                     </div>
                                 </div>
                                 <div className="mx-auto w-auto">
-                                    <Chart options={options} series={series} type="bar"/>
+                                    <Chart options={options} series={series} type="bar" className="lg:w-[500px]"/>
                                 </div>
                             </div>
                         </div>
@@ -204,7 +204,7 @@ const Content = () => {
                                     </div>
                                     <div className="card-body items-center text-center">
                                         <div className="">
-                                            <Chart options={options} series={series} type="area" height="200px" width="200px"/>
+                                            <Chart options={options} series={series} type="area" height="180px" className="lg:w-[240px]"/>
                                         </div>
                                     </div>
                                 </div>
