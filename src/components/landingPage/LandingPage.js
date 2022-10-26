@@ -309,7 +309,7 @@ const LandingPage = () => {
                             </h3>
                             <p className="mb-8 text-sm text-gray-500 font-medium leading-relaxed">No credit card required</p>
                             <button className="mb-9 py-4 px-9 w-full font-medium border border-blueGray-300 hover:border-blueGray-400 rounded-xl focus:ring focus:ring-gray-50 bg-white hover:bg-gray-50 transition ease-in-out duration-200 text-black" type="button">Get Started Now</button>
-                            <ul>
+                            <ul className="text-black">
                                 <li className="mb-4 flex items-center">
                                 <svg className="mr-2" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M4.16699 10.8333L7.50033 14.1666L15.8337 5.83325" stroke="#4F46E5" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
@@ -355,7 +355,7 @@ const LandingPage = () => {
                                 </h3>
                                 <p className="mb-8 text-sm text-gray-500 font-medium leading-relaxed">Billed Yearly</p>
                                 <button className="mb-9 py-4 px-9 w-full font-medium border border-blueGray-300 hover:border-blueGray-400 rounded-xl focus:ring focus:ring-gray-50 bg-white hover:bg-gray-50 transition ease-in-out duration-200 text-black" type="button">Get Started Now</button>
-                                <ul>
+                                <ul className="text-black">
                                 <li className="mb-4 flex items-center">
                                     <svg className="mr-2" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M4.16699 10.8333L7.50033 14.1666L15.8337 5.83325" stroke="#4F46E5" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
@@ -400,7 +400,7 @@ const LandingPage = () => {
                             </h3>
                             <p className="mb-8 text-sm text-gray-500 font-medium leading-relaxed">Billed Yearly</p>
                             <button className="mb-9 py-4 px-9 w-full text-white font-semibold rounded-xl focus:ring focus:ring-indigo-300 bg-indigo-600 hover:bg-indigo-700 transition ease-in-out duration-200" type="button">Get Started Now</button>
-                            <ul>
+                            <ul className="text-black">
                                 <li className="mb-4 flex items-center">
                                 <svg className="mr-2" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M4.16699 10.8333L7.50033 14.1666L15.8337 5.83325" stroke="#4F46E5" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
@@ -441,7 +441,7 @@ const LandingPage = () => {
                             <h3 className="mb-1 text-4xl text-gray-900 font-bold leading-tight">Contact us</h3>
                             <p className="mb-8 text-sm text-gray-500 font-medium leading-relaxed">for custom offer</p>
                             <button className="mb-9 py-4 px-9 w-full font-medium border border-blueGray-300 hover:border-blueGray-400 rounded-xl focus:ring focus:ring-gray-50 bg-white hover:bg-gray-50 transition ease-in-out duration-200 text-black" type="button">Get Started Now</button>
-                            <ul>
+                            <ul className="text-black">
                                 <li className="mb-4 flex items-center">
                                 <svg className="mr-2" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M4.16699 10.8333L7.50033 14.1666L15.8337 5.83325" stroke="#4F46E5" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
