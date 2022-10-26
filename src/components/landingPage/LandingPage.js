@@ -264,7 +264,7 @@ const LandingPage = () => {
                         </div>
                         <div className="md:max-w-xs mx-auto">
                         <h3 className="mb-5 font-heading text-xl font-bold font-heading leading-normal text-black">Get The Product</h3>
-                        <p className="font-sans text-gray-600">Lorem ipsum dolor sit amet, consec tetur adipiscing elit volutpat.</p>
+                        <p className="font-sans text-gray-600">Finally, you can get our best product.</p>
                         </div>
                     </div>
                     </div>
