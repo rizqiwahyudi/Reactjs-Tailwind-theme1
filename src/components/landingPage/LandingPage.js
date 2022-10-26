@@ -249,7 +249,7 @@ const LandingPage = () => {
                         </div>
                         <div className="md:max-w-xs mx-auto">
                         <h3 className="mb-5 font-heading text-xl font-bold font-heading leading-normal text-black">Make Secure Payment</h3>
-                        <p className="font-sans text-gray-600">Lorem ipsum dolor sit amet, consec tetur adipiscing elit volutpat.</p>
+                        <p className="font-sans text-gray-600">Make sure your payment is safe, we only provide payment through our platform.</p>
                         </div>
                     </div>
                     </div>
@@ -302,7 +302,7 @@ const LandingPage = () => {
                     <div className="w-full md:w-1/2 lg:w-1/4">
                         <div className="px-9 pt-8 pb-11 h-full bg-white bg-opacity-90" style={{backdropFilter : 'blur(46px)'}}>
                         <span className="mb-3 inline-block text-sm text-indigo-600 font-semibold uppercase tracking-px leading-snug">Free</span>
-                        <p className="mb-6 text-gray-500 font-medium leading-relaxed">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Egestas lacus, blan dit pellentesque.</p>
+                        <p className="mb-6 text-gray-500 font-medium leading-relaxed">You can choose free access for personal use. If you want to upgrade, you can switch to premium.</p>
                         <h3 className="mb-1 text-4xl text-gray-900 font-bold leading-tight">
                             <span>$0</span>
                             <span className="text-gray-400">/mo</span>
