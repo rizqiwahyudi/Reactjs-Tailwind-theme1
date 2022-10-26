@@ -292,7 +292,7 @@ const LandingPage = () => {
                         </a>
                         <p className="text-gray-600 font-medium leading-relaxed">
                         <span>Yearly</span>
-                        <span className="text-indigo-600 font-semibold">(Save 25%)</span>
+                        <span className="text-indigo-600 font-semibold"> (Save 25%)</span>
                         </p>
                     </div>
                     </div>
