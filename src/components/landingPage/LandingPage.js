@@ -53,7 +53,8 @@ const LandingPage = () => {
                     <div className="flex flex-wrap items-center">
                         <div className="w-auto mr-14">
                         <a href="#">
-                            <img src={require('../../flaro-assets/logos/flaro-logo-black.svg').default} alt=""/>
+                            <img src={require('../../flaro-assets/logos/logo-new.svg').default} alt="" className="w-10 h-10 inline mr-2"/>
+                            <span className="text-black font-extrabold text-xl">Nesiatek</span>
                         </a>
                         </div>
                     </div>
@@ -92,7 +93,8 @@ const LandingPage = () => {
                         <div className="flex items-center justify-between -m-2">
                             <div className="w-auto p-2">
                             <a className="inline-block" href="#">
-                                <img src={require('../../flaro-assets/logos/flaro-logo-black.svg').default} alt=""/>
+                                <img src={require('../../flaro-assets/logos/logo-new.svg').default} alt="" className="w-6 h-6 inline mr-2"/>
+                                <span className="text-black font-extrabold text-lg">Nesiatek</span>
                             </a>
                             </div>
                             <div className="w-auto p-2">
@@ -214,7 +216,7 @@ const LandingPage = () => {
             </section>
             <section className="pt-24 pb-28 bg-white overflow-hidden">
                 <div className="container px-4 mx-auto">
-                <h2 className="mb-5 text-6xl md:text-7xl text-center font-bold font-heading tracking-px-n leading-tight text-black">How Flaro Works</h2>
+                <h2 className="mb-5 text-6xl md:text-7xl text-center font-bold font-heading tracking-px-n leading-tight text-black">How Nesiatek Works</h2>
                 <p className="mb-20 text-lg text-gray-900 text-center font-medium md:max-w-lg mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elemen tum.</p>
                 <div className="flex flex-wrap -m-8">
                     <div className="w-full md:w-1/3 p-8">
@@ -562,7 +564,8 @@ const LandingPage = () => {
                 <div className="flex flex-wrap justify-between -m-8">
                     <div className="w-full sm:w-1/2 lg:w-2/12 p-8">
                     <a className="inline-block" href="#">
-                        <img src={require('../../flaro-assets/logos/flaro-logo-black-xl.svg').default} alt=""/>
+                        <img src={require('../../flaro-assets/logos/logo-new.svg').default} alt="" className="w-10 h-10 inline mr-2"/>
+                        <span className="text-black font-extrabold text-xl">Nesiatek</span>
                     </a>
                     </div>
                     <div className="w-full sm:w-1/2 lg:w-2/12 p-8">
