@@ -142,7 +142,7 @@ const LandingPage = () => {
                         </div>
                         </div>
                         <h1 className="mb-6 text-6xl md:text-8xl lg:text-10xl font-bold font-heading md:max-w-xl leading-none text-black">The new, simple, and lightweight web templates</h1>
-                        <p className="mb-11 text-lg text-black font-medium md:max-w-md">Provides you with web templates and graphic design services, helping you to build a successful website in less time.</p>
+                        <p className="mb-11 text-lg text-black font-medium md:max-w-md">We provides you with web templates and graphic design services, helping you to build a successful website in less time.</p>
                         <div className="flex flex-wrap -m-2.5 mb-20">
                         <div className="w-full md:w-auto p-2.5">
                             <div className="block">
@@ -180,7 +180,8 @@ const LandingPage = () => {
                         </div>
                     </div>
                     <div className="w-full md:w-1/2 p-8">
-                        <img className="transform hover:-translate-y-16 transition ease-in-out duration-1000" src={require('../../flaro-assets/images/headers/header.png')} alt=""/>
+                        {/* <img className="transform hover:-translate-y-16 transition ease-in-out duration-1000" src={require('../../flaro-assets/images/headers/header.png')} alt=""/> */}
+                        <img className="transform hover:-translate-y-16 transition ease-in-out duration-1000 mb-4" src={require('../../flaro-assets/images/headers/Hero-img2.svg').default} alt=""/>
                     </div>
                     </div>
                 </div>
@@ -193,22 +194,22 @@ const LandingPage = () => {
                     <div className="w-full md:w-1/3 p-16 md:p-3">
                     <div className="px-10 pt-11 text-center bg-gray-100 h-96 rounded-4xl">
                         <h3 className="mb-3 text-xl font-bold font-heading leading-normal text-black">eCommerce Templates</h3>
-                        <p className="mb-10 text-gray-600 font-medium leading-relaxed">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
-                        <img className="mx-auto h-72 object-cover rounded-3xl shadow-3xl transform hover:translate-y-3 transition ease-in-out duration-1000" src={require('../../flaro-assets/images/features/peoples.png')} alt=""/>
+                        <p className="mb-10 text-gray-600 font-medium leading-relaxed">Thousands of eCommerce web templates</p>
+                        <img className="mx-auto h-72 object-fill rounded-3xl shadow-3xl transform hover:translate-y-3 transition ease-in-out duration-1000 bg-[#F8FAFC]" src={require('../../flaro-assets/images/features/ecommerce.svg').default} alt=""/>
                     </div>
                     </div>
                     <div className="w-full md:w-1/3 p-16 md:p-3">
                     <div className="px-10 pt-11 text-center bg-gray-100 h-96 rounded-4xl">
                         <h3 className="mb-3 text-xl font-bold font-heading leading-normal text-black">Blog Templates</h3>
-                        <p className="mb-10 text-gray-600 font-medium leading-relaxed">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
-                        <img className="mx-auto h-72 object-cover rounded-3xl shadow-3xl transform hover:translate-y-3 transition ease-in-out duration-1000" src={require('../../flaro-assets/images/features/reports.png')} alt=""/>
+                        <p className="mb-10 text-gray-600 font-medium leading-relaxed">Over 1,500 blog templates</p>
+                        <img className="mx-auto h-72 object-fill rounded-3xl shadow-3xl transform hover:translate-y-3 transition ease-in-out duration-1000 bg-[#F8FAFC]" src={require('../../flaro-assets/images/features/blog.svg').default} alt=""/>
                     </div>
                     </div>
                     <div className="w-full md:w-1/3 p-16 md:p-3">
                     <div className="px-10 pt-11 text-center bg-gray-100 h-96 rounded-4xl">
                         <h3 className="mb-3 text-xl font-bold font-heading leading-normal text-black">Portofolio Templates</h3>
-                        <p className="mb-10 text-gray-600 font-medium leading-relaxed">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
-                        <img className="mx-auto h-72 object-cover rounded-3xl shadow-3xl transform hover:translate-y-3 transition ease-in-out duration-1000" src={require('../../flaro-assets/images/features/users.png')} alt=""/>
+                        <p className="mb-10 text-gray-600 font-medium leading-relaxed">Beautiful portofolio web templates</p>
+                        <img className="mx-auto h-72 object-fill rounded-3xl shadow-3xl transform hover:translate-y-3 transition ease-in-out duration-1000 bg-[#F8FAFC]" src={require('../../flaro-assets/images/features/portofolio.svg').default} alt=""/>
                     </div>
                     </div>
                 </div>
@@ -217,7 +218,7 @@ const LandingPage = () => {
             <section className="pt-24 pb-28 bg-white overflow-hidden">
                 <div className="container px-4 mx-auto">
                 <h2 className="mb-5 text-6xl md:text-7xl text-center font-bold font-heading tracking-px-n leading-tight text-black">How Nesiatek Works</h2>
-                <p className="mb-20 text-lg text-gray-900 text-center font-medium md:max-w-lg mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elemen tum.</p>
+                <p className="mb-20 text-lg text-gray-900 text-center font-medium md:max-w-lg mx-auto">We can help you to improve your productivity by using our products.</p>
                 <div className="flex flex-wrap -m-8">
                     <div className="w-full md:w-1/3 p-8">
                     <div className="relative text-center">
@@ -231,7 +232,7 @@ const LandingPage = () => {
                         </div>
                         <div className="md:max-w-xs mx-auto">
                         <h3 className="mb-5 font-heading text-xl font-bold font-heading leading-normal text-black">Choose Product</h3>
-                        <p className="font-sans text-gray-600">Lorem ipsum dolor sit amet, consec tetur adipiscing elit volutpat.</p>
+                        <p className="font-sans text-gray-600">Choose our best product, of course we provide the best.</p>
                         </div>
                     </div>
                     </div>
@@ -276,7 +277,7 @@ const LandingPage = () => {
                 <div className="mb-16 flex flex-wrap justify-between -m-4">
                     <div className="w-auto p-4">
                     <div className="md:max-w-md">
-                        <p className="text-lg text-gray-900 font-medium leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elemen tum.</p>
+                        <p className="text-lg text-gray-900 font-medium leading-relaxed">Also you can subscribe or switch to premium for more access to our products.</p>
                     </div>
                     </div>
                     <div className="w-auto p-4">
@@ -552,7 +553,7 @@ const LandingPage = () => {
                     </div>
                     </div>
                     <p className="text-gray-600 text-center font-medium">
-                    <span>Still have any questions?</span>
+                    <span>Still have any questions? </span>
                     <a className="font-semibold text-indigo-600 hover:text-indigo-700" href="#">Contact us</a>
                     </p>
                 </div>
